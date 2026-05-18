@@ -44,6 +44,9 @@ export type Course = {
  *   Do not upload video files here. Paste an embed URL from an external platform,
  *   such as "https://www.youtube.com/embed/VIDEO_ID" or
  *   "https://player.vimeo.com/video/VIDEO_ID".
+ *   The sample below uses a YouTube embed URL so the page shows a real video
+ *   player template. Replace it with your own course video when ready.
+ *   If a course has no video, delete the videos field entirely.
  */
 export const COURSES: Course[] = [
   {
@@ -60,12 +63,8 @@ export const COURSES: Course[] = [
     ),
     videos: [
       {
-        title: 'Interactive Systems Studio overview',
-        src: 'https://www.youtube.com/embed/COURSE_OVERVIEW_VIDEO_ID',
-      },
-      {
-        title: 'Studio project showcase sample',
-        src: 'https://www.youtube.com/embed/STUDENT_SHOWCASE_VIDEO_ID',
+        title: 'Course video template',
+        src: 'https://www.youtube-nocookie.com/embed/M7lc1UVf-VE',
       },
     ],
     // Delete studentWork if this course does not need a Student Work section.
@@ -103,11 +102,11 @@ export const COURSES: Course[] = [
         when evaluating physical interaction concepts.
       </>
     ),
-    videos: [
-      {
-        title: 'Fabrication workflow sample',
-        src: 'https://www.youtube.com/embed/FABRICATION_WORKFLOW_VIDEO_ID',
-      },
-    ],
+    // videos: [
+    //   {
+    //     title: 'Fabrication workflow sample',
+    //     src: 'https://www.youtube.com/embed/VIDEO_ID',
+    //   },
+    // ],
   },
 ]

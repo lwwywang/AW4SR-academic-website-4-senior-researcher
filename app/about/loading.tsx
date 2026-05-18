@@ -7,7 +7,7 @@ export default function AboutLoading() {
       <Skeleton className="h-8 md:h-10 w-32 md:w-40 mb-8 md:mb-10" />
 
       {/* Intro paragraph */}
-      <div className="space-y-2 mb-8 md:mb-10 max-w-prose">
+      <div className="space-y-2 mb-8 md:mb-10">
         <Skeleton className="h-4 w-full" />
         <Skeleton className="h-4 w-5/6" />
         <Skeleton className="h-4 w-4/6" />
@@ -15,7 +15,7 @@ export default function AboutLoading() {
 
       {/* Research direction 1 */}
       <Skeleton className="h-6 md:h-7 w-48 md:w-64 mb-3" />
-      <div className="space-y-2 mb-5 max-w-prose">
+      <div className="space-y-2 mb-5">
         <Skeleton className="h-4 w-full" />
         <Skeleton className="h-4 w-3/4" />
       </div>
@@ -31,7 +31,7 @@ export default function AboutLoading() {
 
       {/* Research direction 2 */}
       <Skeleton className="h-6 md:h-7 w-44 md:w-56 mb-3" />
-      <div className="space-y-2 mb-5 max-w-prose">
+      <div className="space-y-2 mb-5">
         <Skeleton className="h-4 w-full" />
         <Skeleton className="h-4 w-2/3" />
       </div>
