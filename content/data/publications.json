@@ -1,0 +1,17 @@
+{
+  "publications": [
+    {
+      "id": "example-conference-2026",
+      "year": 2026,
+      "title": "[Paper Title XXX]",
+      "authors": "Author A, Author B, Author C, and Author D",
+      "venue_full": "In [Conference Full Name] ([Short '26]), Month DD–DD, 2026, City, Country. ACM, New York, NY, USA, 16 pages.",
+      "award": "BEST PAPER AWARD",
+      "links": [
+        { "label": "Paper", "url": "https://example.com" },
+        { "label": "Video", "url": "https://example.com" }
+      ],
+      "note": null
+    }
+  ]
+}

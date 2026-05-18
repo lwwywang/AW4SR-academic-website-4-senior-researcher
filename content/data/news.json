@@ -1,0 +1,16 @@
+{
+  "news": [
+    {
+      "date": "2026.04",
+      "content": "One paper was accepted by [Conference XXX]. Congratulations to [Author A] and [Author B]!"
+    },
+    {
+      "date": "2026.03",
+      "content": "[Paper Title XXX] was accepted by [Conference YYY]. Congratulations to [Author C] and [Author D]!"
+    },
+    {
+      "date": "2025.11",
+      "content": "One paper accepted by [Conference ZZZ] and won Best Paper Award. Congratulations to [Author E], [Author F] and [Author G]!"
+    }
+  ]
+}

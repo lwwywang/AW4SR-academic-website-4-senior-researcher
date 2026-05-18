@@ -1,0 +1,18 @@
+{
+  "directions": [
+    {
+      "id": "direction-a",
+      "title": "[Research Direction Title A]",
+      "description": "[One sentence description of this research direction.]",
+      "background_image": "/images/directions/direction-a-bg.webp",
+      "order": 1
+    },
+    {
+      "id": "direction-b",
+      "title": "[Research Direction Title B]",
+      "description": "[One sentence description of this research direction.]",
+      "background_image": "/images/directions/direction-b-bg.webp",
+      "order": 2
+    }
+  ]
+}

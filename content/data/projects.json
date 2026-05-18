@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "id": "project-example",
+      "direction_id": "direction-a",
+      "order": 1,
+      "title": "[Project Title XXX]",
+      "authors": "Author A, Author B, Author C",
+      "venue_label": "[Conference XXX Year]",
+      "award": null,
+      "media": {
+        "demo": null,
+        "image": "/images/projects/project-example/image.webp"
+      },
+      "links": [
+        { "label": "PDF", "url": "https://example.com" },
+        { "label": "Project Page", "url": "/projects/project-example" }
+      ]
+    }
+  ]
+}

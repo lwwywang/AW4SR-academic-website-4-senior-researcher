@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "id": "current",
+      "title": "Current Members",
+      "members": [
+        "KXX (Research Fellow, since 2024)",
+        "LXX (PhD candidate, since 2024)"
+      ]
+    },
+    {
+      "id": "alums",
+      "title": "Alums",
+      "members": [
+        "AXX (Research Assistant, 2021–2023)",
+        "Jane (Research Assistant, 2023)"
+      ]
+    },
+    {
+      "id": "capstone",
+      "title": "Former Capstone Students",
+      "members": [
+        "Yi (2023–2024, with XXX). The XXXX",
+        "SXX (2023–2024, with XXX). Seeking XXX"
+      ]
+    }
+  ]
+}

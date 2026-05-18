@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# auto-generated images (built by GitHub Action)
+public/images/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*

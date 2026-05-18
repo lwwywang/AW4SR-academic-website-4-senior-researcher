@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes shimmer {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+:root {
+  /* --font-heading and --font-body are injected by next/font in layout.tsx */
+  --font-mono: 'Courier New', Courier, monospace;
+
+  /* Set dynamically by Navbar via JS; fallback keeps content from hiding under navbar */
+  --navbar-height: 96px;
+}
