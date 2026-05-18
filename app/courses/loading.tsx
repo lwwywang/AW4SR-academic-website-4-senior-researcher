@@ -2,7 +2,7 @@ import { Skeleton, SkeletonImage } from '@/components/ui/Skeleton'
 
 export default function CoursesLoading() {
   return (
-    <main className="max-w-prose px-10 py-section">
+    <main className="max-w-prose px-10 pt-6 pb-section">
       {[...Array(2)].map((_, i) => (
         <div key={i} className={i > 0 ? 'mt-16 pt-16 border-t border-gray-200 dark:border-gray-800' : ''}>
           {/* Course title */}
@@ -17,8 +17,8 @@ export default function CoursesLoading() {
           </div>
           {/* Video button */}
           <Skeleton className="h-9 w-48 mb-4" />
-          {/* Video iframe — shimmer */}
-          <SkeletonImage className="h-96 w-full mb-8" />
+          {/* Video iframe — 手机矮，桌面高 */}
+          <SkeletonImage className="h-52 md:h-96 w-full mb-8" />
           {/* Student work */}
           <Skeleton className="h-7 w-36 mb-4" />
           <div className="space-y-3">

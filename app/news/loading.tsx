@@ -2,7 +2,7 @@ import { Skeleton } from '@/components/ui/Skeleton'
 
 export default function NewsLoading() {
   return (
-    <main className="max-w-prose px-10 py-section">
+    <main className="max-w-prose px-10 pt-6 pb-section">
       <Skeleton className="h-10 w-32 mb-10" />
       <div className="space-y-4">
         {[...Array(8)].map((_, i) => (

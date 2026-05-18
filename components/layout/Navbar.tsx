@@ -64,11 +64,11 @@ export default function Navbar() {
     >
       <div className="max-w-content mx-auto px-10">
         {/* Row 1: name + controls */}
-        <div className="flex items-center justify-between py-3">
-          <Link href="/about" className="text-display font-bold font-serif leading-none text-[#0A0A0A] dark:text-[#FAFAF8]">
+        <div className="flex items-center justify-between py-3 md:py-5">
+          <Link href="/about" className="text-display font-bold font-serif text-[#0A0A0A] dark:text-[#FAFAF8]">
             Professor Name
           </Link>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 translate-y-1 md:translate-y-0">
             <button
               onClick={toggleDark}
               aria-label="Toggle dark mode"

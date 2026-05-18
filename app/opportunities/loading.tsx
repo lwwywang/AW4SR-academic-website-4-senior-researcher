@@ -2,7 +2,7 @@ import { Skeleton } from '@/components/ui/Skeleton'
 
 export default function OpportunitiesLoading() {
   return (
-    <main className="max-w-prose px-10 py-section">
+    <main className="max-w-prose px-10 pt-6 pb-section">
       <Skeleton className="h-10 w-56 mb-10" />
       <div className="space-y-6">
         {[...Array(3)].map((_, i) => (
