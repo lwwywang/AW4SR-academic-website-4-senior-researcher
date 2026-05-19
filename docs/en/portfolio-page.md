@@ -121,7 +121,7 @@ Each item in `projects: [ … ]` creates one project card.
   title: 'Your Paper Title Here',
   authors: <><Strong>First Author</Strong>, Second Author, Third Author</>,
   venue: <>Proceedings of <Strong>CHI 2024</Strong>, Honolulu, Hawaii, USA</>,
-  award: <>★ Best Paper Award — <Strong>CHI 2024</Strong></>,  // ← optional
+  award: <>🏆 Best Paper Award — <Strong>CHI 2024</Strong></>,  // ← optional
   links: [
     { label: 'PDF',   href: 'https://link-to-pdf.com' },
     { label: 'Video', href: 'https://link-to-video.com' },
@@ -156,7 +156,7 @@ venue: <>Proceedings of <Strong>CHI 2024</Strong>, Honolulu, Hawaii, USA</>,
 If the paper received an award, add the `award` field. If omitted, the line stays as an invisible placeholder so all cards maintain the same layout height:
 
 ```tsx
-award: <>★ Best Paper Award — <Strong>CHI 2024</Strong></>,
+award: <>🏆 Best Paper Award — <Strong>CHI 2024</Strong></>,
 ```
 
 To **remove an award**, delete the entire `award: …,` line. The layout of other cards will not shift.

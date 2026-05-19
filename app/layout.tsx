@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Playfair_Display, Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/layout/Navbar'
+import { SITE_TITLE, SITE_DESCRIPTION } from '@/content/site'
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -14,8 +15,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Academic Website',
-  description: 'Personal academic website',
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

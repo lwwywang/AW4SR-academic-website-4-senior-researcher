@@ -31,6 +31,22 @@ imageSrc: '/images/my-photo.jpg'   // ← 这样引用
 
 ## 1. 个人介绍（Bio）
 
+### 更换个人照片
+
+打开 `content/about.tsx`，找到 `BIO_PHOTO`，修改 `src` 和 `alt`：
+
+```tsx
+export const BIO_PHOTO = {
+  src: '/images/profile.jpg',  // ← 把图片放在 public/images/ 下，这里写对应路径
+  alt: '张三教授',               // ← 写上姓名（用于屏幕阅读器）
+}
+```
+
+**注意事项：**
+- 推荐使用**竖版（纵向）照片**，展示区域为 180 × 200 px。
+- 图片会自动**从顶部开始裁剪**，请确保人物面部在照片的上半部分。
+- 图片分辨率和文件大小不限，网站会自动处理缩放。
+
 ### 修改正文
 
 找到 `BIO_TEXT`，在 `<>` 和 `</>` 之间改写你的内容：
@@ -206,7 +222,7 @@ mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18…',
 
 ---
 
-## 快速参考 — InlineLink 超链接组件
+1## 快速参考 — InlineLink 超链接组件
 
 在任何需要超链接的地方使用 `<InlineLink>`（灰色文字 + 下划线，鼠标悬停变黑）。
 

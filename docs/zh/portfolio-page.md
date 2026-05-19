@@ -120,7 +120,7 @@ export const PORTFOLIO_INTRO = (
   title: '你的论文标题',
   authors: <><Strong>第一作者</Strong>、第二作者、第三作者</>,
   venue: <>发表于 <Strong>CHI 2024</Strong>，美国夏威夷</>,
-  award: <>★ Best Paper Award — <Strong>CHI 2024</Strong></>,  // ← 可选
+  award: <>🏆 Best Paper Award — <Strong>CHI 2024</Strong></>,  // ← 可选
   links: [
     { label: 'PDF',   href: 'https://pdf链接' },
     { label: 'Video', href: 'https://视频链接' },
@@ -155,7 +155,7 @@ venue: <>发表于 <Strong>CHI 2024</Strong>，美国夏威夷</>,
 有获奖则添加 `award` 字段；没有则不写（或删掉这行）。布局不受影响——无论有没有获奖信息，卡片高度和其他元素的位置都保持一致：
 
 ```tsx
-award: <>★ Best Paper Award — <Strong>CHI 2024</Strong></>,
+award: <>🏆 Best Paper Award — <Strong>CHI 2024</Strong></>,
 ```
 
 ### 链接（links）

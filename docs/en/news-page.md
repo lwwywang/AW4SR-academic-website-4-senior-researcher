@@ -11,6 +11,17 @@ You do **not** need to touch any other file.
 
 ---
 
+## How the display limit works
+
+The main `/news` page shows only the **8 most recent** items (the first 8 in the array).
+
+- If the array has **8 or fewer** entries, all items are shown and nothing else appears.
+- If the array has **more than 8** entries, a **"More →"** link appears automatically at the bottom of the page. Clicking it opens `/news/all`, where every item is shown.
+
+You never need to configure this — just keep adding items to the array.
+
+---
+
 ## Adding a news item
 
 Copy any existing entry and paste it at the top of the array (newest first is recommended):

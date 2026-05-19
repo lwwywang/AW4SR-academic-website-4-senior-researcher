@@ -12,6 +12,24 @@ import type { ProjectItem } from '@/components/about/ResearchSection'
 // ── 1. BIO ──────────────────────────────────────────────────────
 
 /**
+ * Profile photo shown to the left of the bio paragraph.
+ *
+ * HOW TO REPLACE:
+ *   1. Place your photo in public/images/  (e.g. public/images/profile.jpg)
+ *   2. Change `src` to '/images/profile.jpg'
+ *   3. Change `alt` to the person's name
+ *
+ * PORTRAIT ORIENTATION RECOMMENDED (taller than wide).
+ * The photo is displayed at 180 × 200 px and automatically cropped from the
+ * top, so keep the subject's face near the top of the image.
+ * Any file size or resolution works — the site handles resizing.
+ */
+export const BIO_PHOTO = {
+  src: 'https://picsum.photos/seed/profile/280/420', // ← replace with '/images/profile.jpg'
+  alt: 'Professor [Name]',                            // ← replace with the person's name
+}
+
+/**
  * Links shown below the bio paragraph (e.g. Google Scholar, CV, personal site).
  * external: true  → opens in a new tab
  * external: false → internal page (e.g. "/publications")

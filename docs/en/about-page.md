@@ -33,6 +33,22 @@ every image to a consistent size so nothing ever looks stretched or misaligned.
 
 ## 1. Bio
 
+### Changing the profile photo
+
+Open `content/about.tsx` and find `BIO_PHOTO`. Change `src` and `alt`:
+
+```tsx
+export const BIO_PHOTO = {
+  src: '/images/profile.jpg',  // ← place your file in public/images/
+  alt: 'Dr. Jane Smith',       // ← the person's name (used for screen readers)
+}
+```
+
+**Tips:**
+- A **portrait (vertical) photo** works best — the display area is 180 × 200 px.
+- The image is automatically cropped **from the top**, so keep the subject's face near the top of the image.
+- Any file size or resolution is fine; the site handles resizing.
+
 ### Changing the text
 
 Find the `BIO_TEXT` section and rewrite between the `<>` and `</>` tags:

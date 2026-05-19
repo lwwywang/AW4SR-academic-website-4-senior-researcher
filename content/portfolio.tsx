@@ -80,7 +80,7 @@ export const DIRECTIONS: Direction[] = [
         title: 'RoboSkin: A Soft Robotic Interface That Changes Shape in Response to Touch',
         authors: <><Strong>Alice Chen</Strong>, Bob Smith, Carol Williams, David Lee</>,
         venue: <>Proceedings of <Strong>CHI 2024</Strong>, Honolulu, Hawaii, USA</>,
-        award: <>&#x2605; Best Paper Award — <Strong>CHI 2024</Strong></>,
+        award: <>🏆 Best Paper Award — <Strong>CHI 2024</Strong></>,
         links: [
           { label: 'PDF',   href: 'https://example.com/paper.pdf' },
           { label: 'Video', href: 'https://example.com/video' },
