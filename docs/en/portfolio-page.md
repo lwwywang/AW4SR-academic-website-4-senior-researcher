@@ -173,6 +173,32 @@ links: [
 ],
 ```
 
+#### PDF — external link (preferred)
+
+If your paper is already available online (ACM DL, arXiv, university repository), just paste the URL:
+
+```tsx
+{ label: 'PDF', href: 'https://dl.acm.org/doi/pdf/10.1145/…' }
+```
+
+#### PDF — self-hosted
+
+If the paper is not publicly accessible via URL, you can host the PDF on this site:
+
+1. Place the file in `public/papers/` — e.g. `public/papers/roboskin-chi2024.pdf`
+2. Reference it with a leading slash:
+
+```tsx
+{ label: 'PDF', href: '/papers/roboskin-chi2024.pdf' }
+```
+
+**Important — PDFs are not stored in git.**  
+The `public/papers/` folder is excluded from the repository to keep it lightweight. After deploying the site, upload your PDFs separately:
+- **Vercel**: Dashboard → your project → Settings → upload via Vercel CLI (`vercel deploy`) or use [Vercel Blob](https://vercel.com/docs/storage/vercel-blob) storage.
+- **Institution server**: Upload to your university file server and use `/papers/` as a proxy, or just link directly to the institutional URL instead.
+
+Page load speed is not affected either way — PDFs are only downloaded when the user clicks the link.
+
 ### Media (image or GIF)
 
 Place your file in `public/images/` and reference it as `/images/filename`:

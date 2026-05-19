@@ -8,6 +8,10 @@ out/
 # auto-generated images (built by GitHub Action)
 public/images/
 
+# uploaded PDFs — kept out of git to avoid repo bloat
+# deploy them separately via Vercel dashboard or your institution's server
+public/papers/*.pdf
+
 # env
 .env
 .env.local

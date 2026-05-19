@@ -58,6 +58,12 @@ export const PORTFOLIO_INTRO = (
  *   authors   — italic author list; wrap names in <Strong> for bold
  *   venue     — conference/journal; wrap in <Strong> for bold parts
  *   links     — array of { label, href } for PDF, Video, etc.
+ *               Two ways to link a PDF:
+ *               External URL:  { label: 'PDF', href: 'https://dl.acm.org/…' }
+ *               Self-hosted:   { label: 'PDF', href: '/papers/your-paper.pdf' }
+ *                 → place the file at  public/papers/your-paper.pdf
+ *                 → PDFs in that folder are git-ignored; upload them separately
+ *                    to Vercel (dashboard → Storage) or your institution's server.
  *   mediaSrc  — image or GIF; place in public/images/ (".gif" files work)
  *               GIFs are lazy-loaded — they only start downloading when
  *               the user scrolls to them, keeping initial load fast.

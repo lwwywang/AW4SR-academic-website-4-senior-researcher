@@ -170,6 +170,32 @@ links: [
 ],
 ```
 
+#### PDF — 外部链接（推荐）
+
+如果论文已在网上公开（ACM DL、arXiv、学校仓库等），直接粘贴链接即可：
+
+```tsx
+{ label: 'PDF', href: 'https://dl.acm.org/doi/pdf/10.1145/…' }
+```
+
+#### PDF — 自行托管
+
+如果论文没有公开可访问的 URL，可以把 PDF 直接放在网站上：
+
+1. 将文件放入 `public/papers/` 目录，例如 `public/papers/roboskin-chi2024.pdf`
+2. 用以斜杠开头的路径引用：
+
+```tsx
+{ label: 'PDF', href: '/papers/roboskin-chi2024.pdf' }
+```
+
+**注意 — PDF 文件不会存入 git 仓库。**  
+`public/papers/` 目录已被排除在版本控制之外，以避免仓库体积膨胀。部署网站后，需要单独上传 PDF：
+- **Vercel**：在 Dashboard → 项目 → 通过 Vercel CLI（`vercel deploy`）上传，或使用 [Vercel Blob](https://vercel.com/docs/storage/vercel-blob) 对象存储。
+- **学校服务器**：上传到学校的文件服务器，直接使用机构提供的链接即可。
+
+无论哪种方式，PDF **不影响页面加载速度**——只有用户点击链接时才会下载文件。
+
 ### 媒体（mediaSrc）
 
 把文件放入 `public/images/`，然后写路径：
