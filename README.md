@@ -5,13 +5,6 @@ Most academic website templates are built for simplicity — a single page, a sh
 This template is built specifically for that audience.
 
 ---
-## Documentation（in chinese）
-HLD: https://clever-pelican-46a.notion.site/35f35604bb16805d9779e24a1c7150a3?source=copy_link
-LLD: https://clever-pelican-46a.notion.site/36135604bb1680b49e3eec3e45ce9ec3?source=copy_link
-
-Conducted interviews with a NUS professor to gather and summarize project requirements.
-
----
 
 ## Tech Stack
 
@@ -36,6 +29,14 @@ Conducted interviews with a NUS professor to gather and summarize project requir
 - `loading="lazy"` on all non-critical images, GIFs, and embedded videos
 - GIFs only download when scrolled into view
 - Pre-rendered HTML for every page — no client-side data fetching
+
+---
+## Documentation（in chinese）
+HLD: https://clever-pelican-46a.notion.site/35f35604bb16805d9779e24a1c7150a3?source=copy_link
+
+LLD: https://clever-pelican-46a.notion.site/36135604bb1680b49e3eec3e45ce9ec3?source=copy_link
+
+Conducted interviews with a NUS professor to gather and summarize project requirements.
 
 ---
 
